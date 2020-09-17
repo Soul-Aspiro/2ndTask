@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Person 1",
+    "Phone": 9942141412,
+    "email": "person1@gmail.com",
+    "address": "5-76   Vizag  AP India",
+    "url": ["http://github.com", "http://Linkedin.com"]
+  },
+  {
+    "name": "Person 2",
+    "Phone": "9944141412",
+    "email": "person1@gmail.com",
+    "address": "5-76  EastGodavari AP India",
+    "url": ["http://github.com", "http://Linkedin.com"]
+  },
+  {
+    "name": "Person 3",
+    "Phone": "9955521412",
+    "email": "person3@gmail.com",
+    "address": "5-6 WestGodavari AP India",
+    "url": ["http://github.com", "http://Linkedin.com"]
+  }
+]

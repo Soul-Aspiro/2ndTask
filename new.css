@@ -1,0 +1,67 @@
+*{
+    font-family: poppins,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+background-color: #FBAB7E;
+background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+color: #ffffff;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+.card{
+border: 2px white solid;
+padding: 3rem 0rem;
+max-width: 25%;
+}
+
+.image{
+    max-width: 65%;
+}
+.header{
+    min-height: 2rem;
+    
+}
+
+p{
+    min-width: 3rem;
+}
+
+.button{
+    padding: 0.5rem 2rem;
+    background-color: #ffffff;
+    border: none;
+    color: #F7CE68;
+    
+}
+.button:hover{
+    background-color: #F7CE68;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+.card{
+max-width: 35%;
+}
+}
+
+@media only screen and (min-width: 439px) and (max-width: 767px) {
+
+.card{
+max-width: 50%;
+}
+}
+
+
+@media only screen and (min-width: 360px) and (max-width: 438px)
+{
+
+.card{
+max-width: 80%;
+}
+}
